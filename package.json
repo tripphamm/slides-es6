@@ -1,0 +1,52 @@
+{
+  "name": "slides-es6",
+  "version": "1.0.0",
+  "description": "ES6 presentation slides",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js --optimize-minimize"
+  },
+  "keywords": [
+    "redux",
+    "slides",
+    "presentation"
+  ],
+  "author": "@tripphamm",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.0",
+    "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "emojione": "^4.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "express": "^4.16.3",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-children-proptype": "^2.0.0",
+    "react-dom": "^16.5.2",
+    "react-highlight": "^0.12.0",
+    "react-hot-loader": "^4.3.11",
+    "reveal": "0.0.4",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  }
+}
